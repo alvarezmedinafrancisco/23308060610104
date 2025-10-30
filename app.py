@@ -1,4 +1,4 @@
-from flask import Flask , render_template, request , session
+from flask import Flask , render_template, request , session , method
 app = Flask(__name__)
 
 @app.route('/base')
