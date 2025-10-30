@@ -13,7 +13,7 @@ def calculadora():
         pro = request.form.get("proteinas")
         car = request.form.get("carbohidratos")
         session['alimentos_clasificados']
-    return render_template("base.html" , prote = pro , carbo = car , gra = gras)
+    return render_template("base.html" , prot = pro , carbo = car , gra = gras)
 
 @app.route("/clasificador", methods=["GET", "POST"])
 def nose():
